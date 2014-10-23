@@ -1,0 +1,65 @@
+// Bot configuration file - rename to settings.js after config
+
+exports.settings = {
+	// Name of bot
+	globalNick: "ModularBot",
+	// Username of bot
+	globalUserName: "IRCBot",
+	// Realname of bot
+	globalRealName: "Node.js IRC Bot",
+	// prefix of most commands for bot
+	defaultCommandPrefix: "!",
+
+	// These modules will be loaded in all channels.
+	globalServModules: {
+		ctcp: {}
+	},
+	// These modules will be loaded in all channels.
+	globalModules: {
+		yesno: {},
+		chance: {},
+		tell: {},
+		calc: {},
+		chatbot: {},
+		seen: {},
+		ddg: {},
+		fire: {},
+		flipcoin: {},
+		rolldice: {},
+		time: {},
+		fortune: {},
+		truefalse: {},
+		// default message
+		welcome: {},
+		/* custom message
+		welcome: { message: "Welcome to the channel, %!" }, */
+		excuse: {}TEST
+		say: {},
+		about: {},
+		cookie: {},
+		eightball: {},
+		card: {}
+	},
+	
+	servers: {
+		djbouche: {
+			// irc server's address
+			address: 'irc.someserver.net',
+			// port of irc server
+			port: 6667,
+			modules: {},
+			channels: {
+				// channel to join
+				"#testchannel": {
+					// extra modules to load to this channel
+					donotslap: {},
+				},
+				
+			     /*	"#testchannel2": {
+					// extra modules to load to this channel
+					donotslap: {},
+				}, */
+			}
+		}
+	}
+}

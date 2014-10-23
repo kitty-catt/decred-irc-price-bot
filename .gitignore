@@ -1,0 +1,6 @@
+startbot
+log.txt
+settings.js
+modules/tell/
+*.pyc
+*.pyo
