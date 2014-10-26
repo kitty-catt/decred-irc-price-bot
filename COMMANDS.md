@@ -110,3 +110,7 @@ Returns a fortune from an eightball.
 #### card  
 Usage: !card  
 Returns a random card.  
+
+#### help  
+Usage: !help   
+Gives a link to this file for the commands.

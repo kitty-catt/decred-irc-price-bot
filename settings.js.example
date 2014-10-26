@@ -38,7 +38,8 @@ exports.settings = {
 		about: {},
 		cookie: {},
 		eightball: {},
-		card: {}
+		card: {},
+		help: {}
 	},
 	
 	servers: {
