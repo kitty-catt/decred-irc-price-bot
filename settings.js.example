@@ -35,7 +35,6 @@ exports.settings = {
 		welcome: { message: "Welcome to the channel, %!" }, */
 		excuse: {},
 		say: {},
-		about: {},
 		cookie: {},
 		eightball: {},
 		card: {},
@@ -55,7 +54,7 @@ exports.settings = {
 					// extra modules to load to this channel
 					donotslap: {},
 				},
-				
+				// extra channel?
 			     /*	"#testchannel2": {
 					// extra modules to load to this channel
 					donotslap: {},
