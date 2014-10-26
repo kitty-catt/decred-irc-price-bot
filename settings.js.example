@@ -33,7 +33,7 @@ exports.settings = {
 		welcome: {},
 		/* custom message
 		welcome: { message: "Welcome to the channel, %!" }, */
-		excuse: {}TEST
+		excuse: {},
 		say: {},
 		about: {},
 		cookie: {},
