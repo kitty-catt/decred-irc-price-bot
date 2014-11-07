@@ -10,6 +10,5 @@ flavor = [
 "succulent",
 "savory",
 "sweet",
-"spicy", // lol
 "mouthwatering"
 ];
