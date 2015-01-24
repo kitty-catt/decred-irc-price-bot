@@ -91,10 +91,6 @@ Returns a weird excuse.
 Usage: !say message  
 Says the message that you say in the command.  
 
-#### about
-Usage: !about  
-Returns information about the bot.  
-
 #### cookie  
 Usage: !cookie  
 Gives the user a cookie with a beverage.
