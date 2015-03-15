@@ -53,6 +53,8 @@ exports.settings = {
 				"#testchannel": {
 					// extra modules to load to this channel
 					donotslap: {},
+				// for irc reporting, change the port to a four digit number and uncomment the line below
+			//	report: {port: 5764, allowedip: "127.0.0.1"},
 				},
 				// extra channel?
 			     /*	"#testchannel2": {
