@@ -9,6 +9,8 @@ exports.settings = {
 	globalRealName: "Node.js IRC Bot",
 	// prefix of most commands for bot
 	defaultCommandPrefix: "!",
+        // The IRC nick of the person actually running the bot
+        globalowner: "BotOwner",
 
 	// These modules will be loaded in all channels.
 	globalServModules: {
