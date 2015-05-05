@@ -10,7 +10,9 @@ exports.settings = {
 	// prefix of most commands for bot
 	defaultCommandPrefix: "!",
         // The IRC nick of the person actually running the bot
-        globalowner: "BotOwner",
+        globalowner: "AlphaTech",
+	// Set to true to enable notifications when an update is available (checks when the bot starts and will notify via IRC to the owner. The tell module must be enabled)
+	updatenotify: "true",
 
 	// These modules will be loaded in all channels.
 	globalServModules: {
@@ -46,13 +48,13 @@ exports.settings = {
 	servers: {
 		djbouche: {
 			// irc server's address
-			address: 'irc.someserver.net',
+			address: '127.0.0.1',
 			// port of irc server
 			port: 6667,
 			modules: {},
 			channels: {
 				// channel to join
-				"#testchannel": {
+				"#alpha": {
 					// extra modules to load to this channel
 					donotslap: {},
 				// for irc reporting, change the port to a four digit number and uncomment the line below
