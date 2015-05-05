@@ -48,13 +48,13 @@ exports.settings = {
 	servers: {
 		djbouche: {
 			// irc server's address
-			address: '127.0.0.1',
+			address: 'irc.someserver.net',
 			// port of irc server
 			port: 6667,
 			modules: {},
 			channels: {
 				// channel to join
-				"#alpha": {
+				"#testchannel": {
 					// extra modules to load to this channel
 					donotslap: {},
 				// for irc reporting, change the port to a four digit number and uncomment the line below
