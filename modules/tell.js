@@ -84,21 +84,22 @@ exports.module = function()
 }
 
 if (settings.updatenotify == true) {
-fs.readFile('./version.txt', 'utf-8', function (err, data) {
-if (err) {
-return console.log(err);
-}
-request('https://raw.githubusercontent.com/LifeMushroom/Modular-Node.js-IRC-Bot/master/version.txt', function (error, response, body) {
-if (!error && response.statusCode == 200) {
-if (body > data) {
-var wStream;
-var owner = settings.globalowner;
-wStream = fs.createWriteStream("./modules/tell/" + owner.toLowerCase() + ".txt", {flags: 'a'});
-wStream.write(settings.globalowner + ": Version " + body.split('\n')[0] + " of Modular-Node.js-IRC-Bot is now available. Please considering upgrading from the GitHub repository." + "\n");
-wStream.write(settings.globalowner + ": https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot" + "\n");
-wStream.end();
-}
-}
-})
-});
+    fs.readFile('./version.txt', 'utf-8', function(err, data) {
+        if (err) {
+            return console.log(err);
+        }
+        request('https://raw.githubusercontent.com/LifeMushroom/Modular-Node.js-IRC-Bot/master/version.txt', function(error, response, body) {
+            if (!error && response.statusCode == 200) {
+                if (body > data) {
+                    var wStream;
+                    var owner = settings.globalowner;
+                    wStream = fs.createWriteStream("./modules/tell/" + owner.toLowerCase() + ".txt", {
+                        flags: 'a'
+                    });
+                    wStream.write(settings.globalowner + ": Version " + body.split('\n')[0] + " of Modular-Node.js-IRC-Bot is now available. Please considering upgrading from the GitHub repository. https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot" + "\n");
+                    wStream.end();
+                }
+            }
+        })
+    });
 }
