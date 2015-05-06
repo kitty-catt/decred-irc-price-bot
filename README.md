@@ -13,5 +13,6 @@ To start your bot, type ```node main.js``` or alternatively, open ```run.bat```.
 Your bot should be on the desired channel.
 
 ## Modules and how to use them
-For commands, see [COMMANDS.md](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/blob/master/COMMANDS.md).
-For a tutorial on creating modules, see [CreatingModules.md](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/blob/master/CreatingModules.md).
+- For commands, see [COMMANDS.md](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/blob/master/COMMANDS.md).
+
+- For a tutorial on creating modules, see [CreatingModules.md](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/blob/master/CreatingModules.md).
