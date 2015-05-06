@@ -14,6 +14,6 @@ It's quite simple to actually make your own modules for the bot.
 - To send a raw command, do something like ```this.sendCommand("PRIVMSG #channel :Your Message Here");```
 - To get values from the settings such as the bot's nick or the owner's nick, include the settings file by doing ```var settings = require("../settings").settings;```
  - [x] For example, to get the bot's command prefix, you'd want ```settings.defaultCommandTrigger``` or to get the bot's nickname, you'd want ```settings.globalNick```
-- To end the module, include two curly-braces.
+- To end the module, include two curly-braces at the bottom of the module's file.
 - Include the module in your configuration by using the name of the file (without the tailing .js) as the module's name
 - Optionally, send a [Pull Request](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/pulls) so others can use your awesome module too!
