@@ -8,7 +8,7 @@ An extremely modular IRC bot written in Node.js (early in dev)
 2. Install Node.js. Go in a command prompt and navigate to the bot's folder.
 3. If updatenotify is set to true in your settings, install [request](https://www.npmjs.com/package/request) using [npm](https://www.npmjs.com/). This may be ```npm install request``` on your system.
 
-To start your bot, type ```node main.js``` or alternatively, open ```run.bat```.
+To start your bot, type ```node main.js``` or alternatively, open ```run.bat```, run ```./run.sh```, or ```./main.js```
 
 Your bot should be on the desired channel.
 
