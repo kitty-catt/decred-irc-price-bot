@@ -16,5 +16,5 @@ It's quite simple to actually make your own modules for the bot.
  - [x] For example, to get the bot's command prefix, you'd want ```settings.defaultCommandTrigger``` or to get the bot's nickname, you'd want ```settings.globalNick```
 - To end the module, include two curly-braces at the bottom of the module's file.
 - Include the module in your configuration by using the name of the file (without the tailing .js) as the module's name
-- Optinally, add your module's commands to [COMMANDS.md](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/blob/master/COMMANDS.md)
+- Optionally, add your module's commands to [COMMANDS.md](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/blob/master/COMMANDS.md)
 - Optionally, send a [Pull Request](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/pulls) so others can use your awesome module too!
