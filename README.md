@@ -4,6 +4,8 @@ An extremely modular IRC bot written in Node.js (early in dev)
 
 ## How to use/install
 
+If you cannot host this or don't want to use your own system, please view the [OpenShift Install Tutorial](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/blob/master/OpenShift.md) otherwise, continue on...
+
 1. Open ```settings.js``` and configure the file. There are comments in the file that should tell you what to do.
 2. Install Node.js. Go in a command prompt and navigate to the bot's folder.
 3. If updatenotify is set to true in your settings, install [request](https://www.npmjs.com/package/request) using [npm](https://www.npmjs.com/). This may be ```npm install request``` on your system.
