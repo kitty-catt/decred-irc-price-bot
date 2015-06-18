@@ -1,4 +1,4 @@
-# Modular-Node.js-IRC-bot
+# Modular-Node.js-IRC-Bot
 
 An extremely modular IRC bot written in Node.js (early in dev)
 
@@ -19,3 +19,8 @@ Your bot should be on the desired channel.
 - For commands, see [COMMANDS.md](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/blob/master/Docs/COMMANDS.md).
 
 - For a tutorial on creating modules, see [CreatingModules.md](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/blob/master/Docs/CreatingModules.md).
+
+## License
+
+Modular-Node.js-IRC-Bot operates on the GNU General Public License v3.0. The GPL (V2 or V3) is a copyleft license that requires anyone who distributes our code or a derivative work to make the source available under the same terms. V3 of the license restricts use in hardware that forbids software alterations.
+For more information, visit [LICENSE.txt](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/blob/master/LICENSE.txt).
