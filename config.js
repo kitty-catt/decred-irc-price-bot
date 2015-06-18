@@ -24,7 +24,6 @@ exports.settings = {
 		chance: {},
 		tell: {},
 		calc: {},
-		chatbot: {},
 		seen: {},
 		ddg: {},
 		fire: {},
