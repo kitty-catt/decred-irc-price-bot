@@ -1,6 +1,6 @@
 "use strict"
 var os = require("os");
-var settings = require("../settings.js").settings;
+var settings = require("../config.js").settings;
 
 exports.module = function() {
 	this.onCommand_help = function(nick, command) {

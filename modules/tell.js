@@ -2,7 +2,7 @@
 
 //Tell -- the only useful function of the old NinaBot
 var fs = require("fs");
-var settings = require("../settings").settings;
+var settings = require("../config").settings;
 if (settings.updatenotify == "true") {
 var request = require("request");
 }

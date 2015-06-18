@@ -1,0 +1,28 @@
+{
+  "name": "Modular-Node.js-IRC-Bot",
+  "version": "1.0.0",
+  "description": "IRC Bot programmed in Node.js - official repo",
+  "main": "main.js",
+  "dependencies": {
+    "request": "^2.58.0",
+    "daemonize2": "^0.4.2",
+    "google": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LifeMushroom/Modular-Node.js-IRC-Bot.git"
+  },
+  "keywords": [
+    "Node.js",
+    "IRC Bot",
+    "Internet Relay Chat",
+    "IRC",
+    "Bot"
+  ],
+  "author": "LifeMushroom",
+  "license": "GNU-3.0",
+  "bugs": {
+    "url": "https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/issues"
+  },
+  "homepage": "https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot"
+}

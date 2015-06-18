@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 "use strict"
 
-var Server = require("./Server.js").Server;
-var Channel = require("./Channel.js").Channel;
+var Server = require("./lib/Server.js").Server;
+var Channel = require("./lib/Channel.js").Channel;
 var settings = require("./settings.js").settings;
-var log = require("./Logger.js");
+var log = require("./lib/Logger.js");
 
 if (settings.servers == undefined)
 {
