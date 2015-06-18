@@ -9,8 +9,8 @@ exports.settings = {
 	globalRealName: "Node.js IRC Bot",
 	// prefix of most commands for bot
 	defaultCommandPrefix: "!",
-        // The IRC nick of the person actually running the bot
-        globalowner: "UnconfiguredBotOwner",
+	// The IRC nick of the person actually running the bot
+	globalowner: "UnconfiguredBotOwner",
 	// Set to true to enable notifications when an update is available (checks when the bot starts and will notify via IRC to the owner. The tell module must be enabled)
 	updatenotify: "true",
 
