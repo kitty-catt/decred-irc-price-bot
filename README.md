@@ -8,10 +8,9 @@ If you cannot host this or don't want to use your own system, please view the [C
 
 1. Open ```settings.js``` and configure the file. There are comments in the file that should tell you what to do.
 2. Install Node.js. Go in a command prompt and navigate to the bot's folder.
-3. If updatenotify is set to true in your settings, install [request](https://www.npmjs.com/package/request) using [npm](https://www.npmjs.com/). This may be ```npm install request``` on your system.
-4. If you want to run your bot as daemon, install [daemonize2](https://www.npmjs.com/package/daemonize2) using [npm](https://www.npmjs.com/). This may be ```npm install daemonize2``` on your system.
+3. Run ```npm install``` to automatically install [request](https://www.npmjs.com/package/request) and [daemonize2](https://www.npmjs.com/package/daemonize2)
 
-To start your bot, type ```node main.js``` or alternatively, open ```run.bat```, run ```./run.sh```, or run ```./main.js```. Either, if you want to run it as daemon, run ```node app.js start```.
+To start your bot, type ```node main.js``` or alternatively, open ```run.bat``` on Windows. Otherwise, to run it as daemon, run ```node app.js start```.
 
 Your bot should be on the desired channel.
 

@@ -20,7 +20,7 @@ Once the application is set up, click Start Editing.
 Double-click ```settings.js``` to edit your settings. To save, choose ```File -> Save``` on the top menu.
 
 ![NPM Install](https://raw.githubusercontent.com/LifeMushroom/Modular-Node.js-IRC-Bot/master/Docs/Cloud9/8.png)
-Now run ```cd ..``` and then ```npm install request``` (You won't need to daemonize using this service).
+Now run ```cd ..``` and then ```npm install```.
 
 ![Run Bot](https://raw.githubusercontent.com/LifeMushroom/Modular-Node.js-IRC-Bot/master/Docs/Cloud9/9.png)
 Now run ```./run.sh``` to run the bot!

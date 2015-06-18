@@ -17,7 +17,7 @@ Now that you're all setup, follow [OpenShift's Tutorial](https://developers.open
 Now login using the RHC Client to your application via SSH.
 
 ![Move To Directory and Install Dependencies](https://raw.githubusercontent.com/LifeMushroom/Modular-Node.js-IRC-Bot/master/Docs/OpenShift/7.jpg)
-Now run ```cd app-root/repo``` and then ```npm install request daemonize2```
+Now run ```cd app-root/repo``` and then ```npm install```
 
 ![Edit and Run](https://raw.githubusercontent.com/LifeMushroom/Modular-Node.js-IRC-Bot/master/Docs/OpenShift/8.jpg)
 Now run ```nano settings.js``` to edit your settings (Use control + X to exit and save).

@@ -1,11 +1,11 @@
 {
   "name": "Modular-Node.js-IRC-Bot",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "IRC Bot programmed in Node.js - official repo",
   "main": "main.js",
   "dependencies": {
-    "request": ">2.58.0",
-    "daemonize2": "0.4.2"
+    "request": "^2.58.0",
+    "daemonize2": "^0.4.2"
   },
   "repository": {
     "type": "git",
