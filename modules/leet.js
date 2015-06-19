@@ -4,7 +4,7 @@
 var leet = require('leet');
 
 exports.module = function() { 
-	this.onCommand_say = function(user, args) { 
+	this.onCommand_leet = function(user, args) { 
 		if(args.trim() != "") {
 			this.channel.say(leet.convert(args));
 		} 
