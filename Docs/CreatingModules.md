@@ -1,3 +1,4 @@
+test
 # Creating Modules
 It's quite simple to actually make your own modules for the bot.
 - Make a file in the [modules directory](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/tree/master/modules)
