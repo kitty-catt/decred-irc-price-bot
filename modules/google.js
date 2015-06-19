@@ -1,5 +1,5 @@
 "use strict"
-// Google module - usage: google query
+// Google module - usage: google search-query
 
 var google = require('google');
 google.resultsPerPage = 1;
@@ -14,7 +14,7 @@ exports.module = function() {
 				}
 			});
 		} else {
-			chan.say("You're doing it wrong.\nUsage: google query");
+			chan.say("You're doing it wrong.\nUsage: google search-query");
 		}
 	} 
 }

@@ -1,5 +1,5 @@
 "use strict"
-// Duck Duck Go module - usage: ddg query
+// Duck Duck Go module - usage: ddg search-query
 
 var ddg = require('ddg');
 
@@ -26,7 +26,7 @@ exports.module = function() {
                                 }
                         });
                 } else {
-                        chan.say("You're doing it wrong.\nUsage: ddg query");
+                        chan.say("You're doing it wrong.\nUsage: ddg search-query");
                 }
         }
 }
