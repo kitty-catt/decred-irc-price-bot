@@ -120,3 +120,11 @@ Returns the top Google search result
 #### wolfram
 Usage: !wolfram query
 Runs a query through Wolfram|Alpha, returns the information and URL. Requires a Wolfram|Alpha API Key
+
+#### md5
+Usage: !md5 string
+Creates an md5 hash
+
+#### sha256
+Usage: !sha256 string
+Creates a sha256 hash
