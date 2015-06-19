@@ -8,7 +8,7 @@ If you cannot host this or don't want to use your own system, please view the [C
 
 1. Open ```settings.js``` and configure the file. There are comments in the file that should tell you what to do.
 2. Install Node.js. Go in a command prompt and navigate to the bot's folder.
-3. Run ```npm install``` to automatically install [request](https://www.npmjs.com/package/request) and [daemonize2](https://www.npmjs.com/package/daemonize2)
+3. Run ```npm install``` to automatically install all of our dependencies.
 
 To start your bot, type ```node main.js``` or alternatively, open ```run.bat``` on Windows. Otherwise, to run it as daemon, run ```node app.js start```.
 
