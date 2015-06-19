@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 "use strict"
 
+var Update = require("./lib/Update.js");
 var Server = require("./lib/Server.js").Server;
 var Channel = require("./lib/Channel.js").Channel;
 var settings = require("./config.js").settings;
