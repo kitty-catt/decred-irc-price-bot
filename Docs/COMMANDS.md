@@ -109,34 +109,34 @@ Returns a random card.
 Usage: !help   
 Gives a link to this file for the commands.
 
-#### whois
-Usage: !whois ip-address-query
-Returns information on the IP using ip-api.com
+#### whois  
+Usage: !whois ip-address-query  
+Returns information on the IP using ip-api.com  
 
-#### google
-Usage: !google search-query
-Returns the top Google search result
+#### google  
+Usage: !google search-query  
+Returns the top Google search result  
 
-#### wolfram
-Usage: !wolfram query
-Runs a query through Wolfram|Alpha, returns the information and URL. Requires a Wolfram|Alpha API Key
+#### wolfram  
+Usage: !wolfram query  
+Runs a query through Wolfram|Alpha, returns the information and URL. Requires a Wolfram|Alpha API Key  
 
-#### md5
-Usage: !md5 string
-Creates an md5 hash
+#### md5  
+Usage: !md5 string  
+Creates an md5 hash  
 
-#### sha256
-Usage: !sha256 string
-Creates a sha256 hash
+#### sha256  
+Usage: !sha256 string  
+Creates a sha256 hash  
 
-#### ping
-Usage: !ping
-Checks if bot is alive; Bot responds with "Pong!"
+#### ping  
+Usage: !ping  
+Checks if bot is alive; Bot responds with "Pong!"  
 
-#### leet
-Usage: !leet message
-Converts your message into "leet speak"
+#### leet  
+Usage: !leet message  
+Converts your message into "leet speak"  
 
-#### wiki
-Usage: !wiki search
-Search Wikipedia
+#### wiki  
+Usage: !wiki search  
+Search Wikipedia  
