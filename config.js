@@ -43,7 +43,8 @@ exports.settings = {
 		whois: {},
 		ping: {},
 		sha256: {},
-		md5: {}
+		md5: {},
+		wikipedia: {}
 	},
 	
 	servers: {
