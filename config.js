@@ -41,7 +41,9 @@ exports.settings = {
 		google: {},
 //		wolfram: { key: "Wolfram|Alpha Key Here" },
 		whois: {},
-		ping: {}
+		ping: {},
+		sha256: {},
+		md5: {}
 	},
 	
 	servers: {
