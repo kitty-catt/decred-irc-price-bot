@@ -48,7 +48,7 @@ exports.settings = {
 	
 	servers: {
 		djbouche: {
-			// irc server's address/
+			// irc server's address
 			address: 'irc.someserver.net',
 			// port of irc server
 			port: 6667,
