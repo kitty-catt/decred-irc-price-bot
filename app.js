@@ -34,14 +34,14 @@ if (typeof argv != 'undefined') {
         	if (pid)
             		console.log("[DAEMON]".white + " ModularBot's daemon running. PID: " + pid + "".green);
         	else
-            		console.log("ModularBot's daemon is not running.".green);
+            		console.log("[DAEMON]".white + " ModularBot's daemon is not running.".green);
         	break;
 
     	default:
-		console.log("Daemon Sevice -- For Normal mode, execute main.js".green);
-        	console.log("Usage: node app.js [start|stop|kill|restart|status]".green);
+		console.log("[DAEMON]".white + " Daemon Sevice -- For Normal mode, execute main.js".green);
+        	console.log("[DAEMON".white + " Usage: node app.js [start|stop|kill|restart|status]".green);
 	}
 } else {
-	console.log("Daemon Sevice -- For Normal mode, execute main.js".green);
-	console.log("Usage: node app.js [start|stop|restart|status]".green);
+	console.log("[DAEMON]".white + " Daemon Sevice -- For Normal mode, execute main.js".green);
+	console.log("[DAEMON]".white + " Usage: node app.js [start|stop|restart|status]".green);
 }
