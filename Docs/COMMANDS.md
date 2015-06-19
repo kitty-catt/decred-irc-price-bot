@@ -128,3 +128,15 @@ Creates an md5 hash
 #### sha256
 Usage: !sha256 string
 Creates a sha256 hash
+
+#### ping
+Usage: !ping
+Checks if bot is alive; Bot responds with "Pong!"
+
+#### leet
+Usage: !leet message
+Converts your message into "leet speak"
+
+#### wiki
+Usage: !wiki search
+Search Wikipedia
