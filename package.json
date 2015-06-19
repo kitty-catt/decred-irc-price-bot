@@ -11,7 +11,7 @@
     "node-wolfram": "^0.0.1",
     "temp-write": "^1.1.1",
     "MD5": "^1.2.2",
-    "sk-wikipedia": "^0.1.1"
+    "wtf_wikipedia": "^0.1.6"
   },
   "repository": {
     "type": "git",
