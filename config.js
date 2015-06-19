@@ -44,8 +44,7 @@ exports.settings = {
 		ping: {},
 		sha256: {},
 		md5: {},
-		wikipedia: {},
-		leet: {}
+		wikipedia: {}
 	},
 	
 	servers: {
