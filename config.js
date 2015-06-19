@@ -43,7 +43,8 @@ exports.settings = {
 		card: {},
 		help: {},
 		google: {},
-//		wolfram: { key: "Wolfram|Alpha Key Here" }
+//		wolfram: { key: "Wolfram|Alpha Key Here" },
+		whois: {}
 	},
 	
 	servers: {
