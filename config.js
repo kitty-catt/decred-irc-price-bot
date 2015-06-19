@@ -40,7 +40,8 @@ exports.settings = {
 		help: {},
 		google: {},
 //		wolfram: { key: "Wolfram|Alpha Key Here" },
-		whois: {}
+		whois: {},
+		ping: {}
 	},
 	
 	servers: {
