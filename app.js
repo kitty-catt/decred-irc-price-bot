@@ -38,9 +38,10 @@ if (typeof argv != 'undefined') {
         	break;
 
     	default:
+		console.log("Daemon Sevice -- For Normal mode, execute main.js".green);
         	console.log("Usage: node app.js [start|stop|kill|restart|status]".green);
 	}
 } else {
 	console.log("Daemon Sevice -- For Normal mode, execute main.js".green);
-	console.log("node app.js [start|stop|restart|status]".green);
+	console.log("Usage: node app.js [start|stop|restart|status]".green);
 }
