@@ -1,6 +1,6 @@
 # Modular-Node.js-IRC-Bot
 
-An extremely modular IRC bot written in Node.js (early in dev)
+An extremely modular IRC bot written in Node.js.
 
 ## How to use/install
 
