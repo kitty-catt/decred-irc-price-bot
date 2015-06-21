@@ -2,6 +2,7 @@
 // Duck Duck Go module - usage: ddg search-query
 
 var ddg = require('ddg');
+var settings = require('../config').settings;
 
 var options = {
         "no_html": "1"
@@ -26,7 +27,7 @@ exports.module = function() {
                                 }
                         });
                 } else {
-                        chan.say("You're doing it wrong.\nUsage: ddg search-query");
+                        chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "ddg <Search Query>");
                 }
         }
 }
