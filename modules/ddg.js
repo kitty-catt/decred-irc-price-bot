@@ -27,7 +27,7 @@ exports.module = function() {
                                 }
                         });
                 } else {
-                        chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "ddg search-query");
+                        chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "ddg <Search Query>");
                 }
         }
 }

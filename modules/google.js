@@ -1,6 +1,7 @@
 "use strict"
 // Google module - usage: google search-query
 
+var settings = require('../config').settings;
 var google = require('google');
 google.resultsPerPage = 1;
 
@@ -14,7 +15,7 @@ exports.module = function() {
 				}
 			});
 		} else {
-			chan.say("You're doing it wrong.\nUsage: google search-query");
+			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "google <Search Query>");
 		}
 	} 
 }

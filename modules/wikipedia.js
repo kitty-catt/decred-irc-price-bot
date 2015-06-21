@@ -1,5 +1,6 @@
 "use strict"
 
+var settings = require('../config').settings;
 var wikipedia = require ('wtf_wikipedia');
 
 exports.module = function() {
@@ -16,7 +17,7 @@ exports.module = function() {
 				}
 			});
 		} else {
-			chan.say("You're doing it wrong.\nUsage: wiki query");
+			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "!wiki <Search Query>");
 		}
 	}
 }

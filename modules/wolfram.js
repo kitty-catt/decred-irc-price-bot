@@ -19,7 +19,7 @@ exports.module = function() {
 				}
 			});
 		} else {
-			chan.say("You're doing it wrong.\nUsage: wolfram query");
+			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "wolfram <Query>");
 		}
 	} 
 }
