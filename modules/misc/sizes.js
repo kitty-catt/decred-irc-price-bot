@@ -1,8 +1,8 @@
 // sizes for cookie module
 size = [
 "small",
-"tiny",
 "little",
+"tiny",
 "medium-sized",
 "large",
 "gigantic",
