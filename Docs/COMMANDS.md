@@ -113,7 +113,7 @@ Returns information on the IP using ip-api.com
 Usage: !google search-query  
 Returns the top Google search result  
 
-#### wolfram  
+#### wolfram, wa, wolframalpha  
 Usage: !wolfram query  
 Runs a query through Wolfram|Alpha, returns the information and URL. Requires a Wolfram|Alpha API Key  
 
