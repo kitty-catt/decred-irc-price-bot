@@ -38,10 +38,6 @@ These commands can print text:
 !calc print("hi") - prints hi  
 !calc printf("hi") - prints hi  
 
-#### chatbot
-Usage: Say the bot's name. It will respond.  
-This module uses Cleverbot, an artificial intelligence.  
-
 #### seen
 Usage: !seen username  
 This shows when the last user was seen.  
