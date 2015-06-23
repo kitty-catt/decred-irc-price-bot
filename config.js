@@ -44,8 +44,7 @@ exports.settings = {
 //		wolfram: { key: "Wolfram|Alpha Key Here" },
 		whois: {},
 		ping: {},
-		sha256: {},
-		md5: {},
+		hashes: {},
 		wikipedia: {},
 		leet: {},
 		cat: {}
