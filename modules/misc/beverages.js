@@ -5,4 +5,10 @@ bev = [
 "chocolate sauce",
 "juice",
 "soda",
+"orange juice",
+"chocolate milk",
+"apple juice",
+"iced tea",
+"apple cider",
+"coffee",
 ];
