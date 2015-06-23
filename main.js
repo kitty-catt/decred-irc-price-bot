@@ -23,6 +23,8 @@ for (var i in settings.servers)
 		throw new Error("You forgot the server address for a server.");
 	if (!serverSettings.port)
 		serverSettings.port = 6667;
+	if (!serverSettings.pass)
+		serverSettings.pass = "";
 	if (!serverSettings.nick)
 		serverSettings.nick = settings.globalNick;
 	if (!serverSettings.userName)
