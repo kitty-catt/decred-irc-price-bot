@@ -13,7 +13,8 @@
     "MD5": "^1.2.2",
     "wtf_wikipedia": "^0.1.6",
     "leet": "^1.2.7",
-    "chalk": "^1.0.0"
+    "chalk": "^1.0.0",
+    "pixl-xml": "^1.0.2"
   },
   "repository": {
     "type": "git",
