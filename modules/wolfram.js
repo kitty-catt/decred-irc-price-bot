@@ -21,5 +21,39 @@ exports.module = function() {
 		} else {
 			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "wolfram <Query>");
 		}
+	}
+	this.onCommand_wa = function(user, args) { 
+		var chan = this.channel;
+		if(args.trim() != "") {
+			var Wolfram = new Client(this.settings.key);
+			Wolfram.query(args, function (err, result) {
+				if(err) {
+					console.err(err)
+					chan.say("[ERROR] " + err);
+				} else {
+					chan.say(result.queryresult.pod[1].subpod[0].plaintext[0]);
+					chan.say("http://www.wolframalpha.com/input/?i=" + encodeURIComponent(args));
+				}
+			});
+		} else {
+			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "wolfram <Query>");
+		}
+	}
+	this.onCommand_wolframalpha = function(user, args) { 
+		var chan = this.channel;
+		if(args.trim() != "") {
+			var Wolfram = new Client(this.settings.key);
+			Wolfram.query(args, function (err, result) {
+				if(err) {
+					console.err(err)
+					chan.say("[ERROR] " + err);
+				} else {
+					chan.say(result.queryresult.pod[1].subpod[0].plaintext[0]);
+					chan.say("http://www.wolframalpha.com/input/?i=" + encodeURIComponent(args));
+				}
+			});
+		} else {
+			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "wolfram <Query>");
+		}
 	} 
 }
