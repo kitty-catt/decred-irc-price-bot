@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var color = require('colors');
+var chalk = require('chalk');
 
 if (typeof argv != 'undefined') {
 	var daemon = require("daemonize2").setup({
@@ -32,16 +32,16 @@ if (typeof argv != 'undefined') {
     	case "status":
         	var pid = daemon.status();
         	if (pid)
-            		console.log("[DAEMON]".white + " ModularBot's daemon running. PID: " + pid + "".green);
+            		console.log(chalk.white("[DAEMON]") + chalk.green(" ModularBot's daemon running. PID: " + pid);
         	else
-            		console.log("[DAEMON]".white + " ModularBot's daemon is not running.".green);
+            		console.log(chalk.white("[DAEMON]") + chalk.green(" ModularBot's daemon is not running.");
         	break;
 
     	default:
-		console.log("[DAEMON]".white + " Daemon Sevice -- For Normal mode, execute main.js".green);
-        	console.log("[DAEMON".white + " Usage: node app.js [start|stop|kill|restart|status]".green);
+		console.log(chalk.white("[DAEMON]") + chalk.green(" Daemon Sevice -- For Normal mode, execute main.js"));
+        	console.log(chalk.white("[DAEMON") + chalk.green(" Usage: node app.js [start|stop|kill|restart|status]"));
 	}
 } else {
-	console.log("[DAEMON]".white + " Daemon Sevice -- For Normal mode, execute main.js".green);
-	console.log("[DAEMON]".white + " Usage: node app.js [start|stop|restart|status]".green);
+	console.log(chalk.white("[DAEMON]") + chalk.green(" Daemon Sevice -- For Normal mode, execute main.js"));
+	console.log(chalk.white("[DAEMON]") + chalk.green(" Usage: node app.js [start|stop|restart|status]"));
 }

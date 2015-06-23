@@ -1,4 +1,4 @@
-// Bot configuration file - rename to settings.js after config
+// Bot configuration file - Make sure this is in the main bot directory and named "config.js"
 
 exports.settings = {
 	// Name of bot
