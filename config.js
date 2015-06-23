@@ -54,6 +54,9 @@ exports.settings = {
 			address: 'irc.someserver.net',
 			// port of irc server
 			port: 6667,
+			// server password; leave it blank even if you don't need it
+			pass: "",
+			
 			modules: {},
 			channels: {
 				// channel to join
