@@ -9,8 +9,8 @@ exports.settings = {
 	globalRealName: "Node.js IRC Bot",
 	// prefix of most commands for bot
 	defaultCommandPrefix: "!",
-	// Message to send on connect, most likely a NickServ command... Leave empty if you don't want it
-	connectcmd: "PRIVMSG NickServ :IDENTIFY ModularBot MyModularBotPassword",
+	// Message to send on connect, you don't need to include 'PRIVMSG,' most likely a NickServ command... Leave empty if you don't want it
+	connectcmd: "NickServ :IDENTIFY ModularBot MyModularBotPassword",
 
 	// These modules will be loaded in all channels.
 	globalServModules: {
