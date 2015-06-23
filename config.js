@@ -10,7 +10,7 @@ exports.settings = {
 	// prefix of most commands for bot
 	defaultCommandPrefix: "!",
 
-	// These modules will be loaded in all channels.
+	// These modules will be loaded in all servers.
 	globalServModules: {
 		ctcp: {}
 	},
@@ -63,8 +63,8 @@ exports.settings = {
 				// for irc reporting, change the port to a four digit number and uncomment the line below
 				// report: {port: 5764, allowedip: "127.0.0.1"},
 				},
-				// extra channel?
-			     /*	"#testchannel2": {
+				// extra channel with a password?
+			     /*	"#testchannel2 ChannelPassword": {
 					// extra modules to load to this channel
 					donotslap: {},
 				}, */
