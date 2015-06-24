@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 "use strict"
 
-
 process.on('uncaughtException', function(err) {
-  console.log("ERROR! " + err);
+  console.error(err);
 });
 
 var log = require("./lib/Logger.js");
