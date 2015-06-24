@@ -121,6 +121,14 @@ Runs a query through Wolfram|Alpha, returns the information and URL. Requires a 
 Usage: !md5 string  
 Creates an md5 hash  
 
+#### sha1
+Usage: !sha1 string
+Creates a sha1 hash
+
+####sha512
+Usage: !sha512 string
+Creates a sha512 hash
+
 #### sha256  
 Usage: !sha256 string  
 Creates a sha256 hash  
