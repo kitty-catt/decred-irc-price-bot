@@ -41,7 +41,10 @@ exports.settings = {
 		card: {},
 		help: {},
 		google: {},
-//		wolfram: { key: "Wolfram|Alpha Key Here" },
+		// Wolfram|Alpha API Key: https://developer.wolframalpha.com/portal/apisignup.html
+		// wolfram: { key: "Wolfram|Alpha API Key" },
+		// Yandex Tranlate API Key: https://tech.yandex.com/keys/get/?service=trnsl
+		// translate: { key: "Yandex Translate API Key" },
 		whois: {},
 		ping: {},
 		hashes: {},
