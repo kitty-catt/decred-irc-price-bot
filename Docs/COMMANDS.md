@@ -18,7 +18,7 @@ Usage: !chance
 Gives a random number.
 
 #### tell
-Usage: !tell username message  
+Usage: !tell <Nickname> <Message>  
 This leaves a message for the target user. When the selected user says something, the notice is said.  
 Example:  
 User: !tell OtherUser hi  
@@ -27,7 +27,7 @@ Bot: User: Tell OtherUser hi
 
 #### calc
 This module requires calc from here: [Calc]  (http://sourceforge.net/projects/calc/files/calc/2.12.4.13/)  
-Usage:   
+Usage: !calc <Problem>  
 These commands can calculate problems:  
 !calc (2+2) - prints 4  
 !calc print (2+2) - prints 4  
@@ -39,7 +39,7 @@ These commands can print text:
 !calc printf("hi") - prints hi  
 
 #### seen
-Usage: !seen username  
+Usage: !seen <Nickname>  
 This shows when the last user was seen.  
 
 #### ddg
@@ -82,7 +82,7 @@ Usage: !excuse
 Returns a weird excuse.  
 
 #### say
-Usage: !say message  
+Usage: !say <Message>  
 Says the message that you say in the command.  
 
 #### cookie  
@@ -106,31 +106,31 @@ Usage: !help
 Gives a link to this file for the commands.
 
 #### whois  
-Usage: !whois ip-address-query  
+Usage: !whois <IP-Address-Query>  
 Returns information on the IP using ip-api.com  
 
 #### google  
-Usage: !google search-query  
+Usage: !google <Search-Query>  
 Returns the top Google search result  
 
 #### wolfram, wa, wolframalpha  
-Usage: !wolfram query  
+Usage: !wolfram <Query>  
 Runs a query through Wolfram|Alpha, returns the information and URL. Requires a Wolfram|Alpha API Key  
 
 #### md5  
-Usage: !md5 string  
+Usage: !md5 <String>  
 Creates an md5 hash  
 
 #### sha1  
-Usage: !sha1 string
+Usage: !sha1 <String>  
 Creates a sha1 hash  
 
 #### sha512  
-Usage: !sha512 string
+Usage: !sha512 <String>  
 Creates a sha512 hash  
 
 #### sha256  
-Usage: !sha256 string  
+Usage: !sha256 <String>  
 Creates a sha256 hash  
 
 #### ping  
@@ -138,9 +138,9 @@ Usage: !ping
 Checks if bot is alive; Bot responds with "Pong!"  
 
 #### leet  
-Usage: !leet message  
+Usage: !leet <Message>  
 Converts your message into "leet speak"  
 
 #### wiki  
-Usage: !wiki search  
+Usage: !wiki <Search>  
 Search Wikipedia  
