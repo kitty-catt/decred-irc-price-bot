@@ -125,7 +125,7 @@ Creates an md5 hash
 Usage: !sha1 string
 Creates a sha1 hash  
 
-####sha512  
+#### sha512  
 Usage: !sha512 string
 Creates a sha512 hash  
 
