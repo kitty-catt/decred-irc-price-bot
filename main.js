@@ -1,6 +1,11 @@
 #!/usr/bin/env node
 "use strict"
 
+
+process.on('uncaughtException', function(err) {
+  console.log("ERROR! " + err);
+});
+
 var log = require("./lib/Logger.js");
 var Update = require("./lib/Update.js");
 var Server = require("./lib/Server.js").Server;
