@@ -1,6 +1,6 @@
 {
   "name": "Modular-Node.js-IRC-Bot",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "description": "IRC Bot programmed in Node.js - official repo",
   "main": "main.js",
   "dependencies": {
