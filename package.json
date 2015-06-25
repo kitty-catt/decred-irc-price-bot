@@ -14,7 +14,11 @@
     "wtf_wikipedia": "^0.1.6",
     "leet": "^1.2.7",
     "chalk": "^1.0.0",
-    "pixl-xml": "^1.0.2"
+    "pixl-xml": "^1.0.2",
+    "tinyurl": "^1.0.8",
+    "isgd": "^1.1.1",
+    "vgd": "^1.1.2",
+    "dronebl": "^1.1.9"
   },
   "repository": {
     "type": "git",
