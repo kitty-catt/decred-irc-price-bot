@@ -6,7 +6,7 @@ var uglify = require('gulp-uglify');
 var changed = require('gulp-changed');
 var imagemin = require('gulp-imagemin');
 var markdown = require('gulp-markdown');
-var jsonFormat = require('gulp-format-json');
+var jsonFormat = require('gulp-json-format');
 
 gulp.task('default', function() {
   gulp.src('./app.js')
