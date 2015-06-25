@@ -144,3 +144,19 @@ Converts your message into "leet speak"
 #### wiki  
 Usage: !wiki <Search>  
 Search Wikipedia  
+
+#### tinyurl
+Usage: !tinyurl url
+Shorten the URL
+
+#### isgd
+Usage: !isgd url
+Shorten the URL
+
+#### vdg
+Usage: !vgd url
+Shorten the URL
+
+#### dronebl
+Usage: !dronebl ip-address
+Checks the given IP against DroneBL's dns black lists
