@@ -25,4 +25,5 @@ Your bot should be on the desired channel.
 ## License
 
 Modular-Node.js-IRC-Bot operates on the GNU General Public License v3.0. The GPL (V2 or V3) is a copyleft license that requires anyone who distributes our code or a derivative work to make the source available under the same terms. V3 of the license restricts use in hardware that forbids software alterations.
+
 For more information, visit [LICENSE.txt](https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot/blob/master/LICENSE.txt).
