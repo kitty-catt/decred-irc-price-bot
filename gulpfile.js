@@ -4,7 +4,6 @@ var concat = require('gulp-concat');
 var stripDebug = require('gulp-strip-debug');
 var uglify = require('gulp-uglify');
 var changed = require('gulp-changed');
-var imagemin = require('gulp-imagemin');
 var markdown = require('gulp-markdown');
 var jsonFormat = require('gulp-json-format');
 
@@ -58,16 +57,6 @@ gulp.task('default', function() {
     .pipe(stripDebug())
     .pipe(uglify())
     .pipe(gulp.dest('./build/JavaScript'));
- 
-  gulp.src('./Docs/Cloud9')
-    .pipe(changed('./build/images'))
-    .pipe(imagemin())
-    .pipe(gulp.dest('./build/images'));
- 
-  gulp.src('./Docs/OpenShift')
-    .pipe(changed('./build/images'))
-    .pipe(imagemin())
-    .pipe(gulp.dest('./build/images'));
 	
   gulp.src('*.md')
     .pipe(markdown())
