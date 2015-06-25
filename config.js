@@ -50,7 +50,11 @@ exports.settings = {
 		hashes: {},
 		wikipedia: {},
 		leet: {},
-		cat: {}
+		cat: {},
+		tinyurl: {},
+		isgd: {},
+		vgd: {},
+		dronebl: {}
 	},
 	
 	servers: {
