@@ -32,9 +32,9 @@ if (typeof argv != 'undefined') {
     	case "status":
         	var pid = daemon.status();
         	if (pid)
-            		console.log(chalk.white("[DAEMON]") + chalk.green(" ModularBot's daemon running. PID: " + pid);
+            		console.log(chalk.white("[DAEMON]") + chalk.green(" ModularBot's daemon running. PID: " + pid));
         	else
-            		console.log(chalk.white("[DAEMON]") + chalk.green(" ModularBot's daemon is not running.");
+            		console.log(chalk.white("[DAEMON]") + chalk.green(" ModularBot's daemon is not running."));
         	break;
 
     	default:

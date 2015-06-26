@@ -5,19 +5,19 @@ exports.module = function() {
 
 	this.onMessage = function(nick, message) {
 		this.updateUserTime(nick);
-	}
+	};
 	
 	this.onUserJoin = function(nick) {
 		this.updateUserTime(nick);
-	}
+	};
 	
 	this.onUserLeave = function(nick) {
 		this.updateUserTime(nick);
-	}
+	};
 	
 	this.updateUserTime = function(nick) {
 		this.usersSeenTime[nick] = Date.now();
-	}
+	};
 	
 	this.onCommand_seen = function(nick, args) {
 		if (typeof this.usersSeenTime[args] != "undefined") {
@@ -45,5 +45,5 @@ exports.module = function() {
 			response = args + " was last seen " + returnTime + " " + returnTimeName + " ago.";
 		} else response = args + " hasn't been seen yet.";
 		this.channel.say(response);
-	}
-}
+	};
+};

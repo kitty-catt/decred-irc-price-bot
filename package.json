@@ -21,7 +21,6 @@
     "dronebl": "^1.1.9"
   },
   "devDependencies": {
-    "coveralls": "2.11.2",
     "gulp": "3.8.11",
     "gulp-jshint": "1.10.0",
     "gulp-markdown": "1.0.0"

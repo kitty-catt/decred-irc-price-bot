@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 // Returns random card
 
 var cardSuites = require("./misc/cardsuites.js");
@@ -12,5 +12,5 @@ exports.module = function() {
 		
 		this.channel.say(sayValue + " of " + saySuite);
 	
-	}
-}
+	};
+};

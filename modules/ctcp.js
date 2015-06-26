@@ -1,8 +1,7 @@
-"use strict"
+"use strict";
 
 var settings = require('../config').settings;
 
-settings.defaultCommandTrigger
 exports.module = function() {
 	this.onMessage = function(user, message) {
 		var st = String.fromCharCode(1);
@@ -14,5 +13,5 @@ exports.module = function() {
 		} else if (message == st+"PING"+st) {
 			this.server.notice(user, "PONG");
 		}
-	}
-}
+	};
+};

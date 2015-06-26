@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 // Whois module - usage: whois ip-address-query
 
 var request = require('request');
@@ -6,7 +6,7 @@ var request = require('request');
 exports.module = function() { 
 	this.onCommand_whois = function(user, args) { 
 		var chan = this.channel;
-		if(args.trim() != "") {
+		if(args.trim() !== "") {
 			request("http://ip-api.com/json/" + args + "?fields=262143", function (error, response, body) {
 				if (!error && response.statusCode == 200) {
 					var obj = JSON.parse(body);
@@ -20,9 +20,8 @@ exports.module = function() {
 					console.err(error);
 				}
 			});
-		} 
-		else {
+		} else {
 			this.channel.say("You're doing it wrong.\nUsage: whois ip-address-query");
 		}
-	} 
-}
+	};
+};

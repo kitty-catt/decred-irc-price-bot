@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 var net = require('net');
 
@@ -33,9 +33,9 @@ exports.module = function() {
 			this.server.listen(this.settings.port, "127.0.0.1");
 		else
 			this.server.listen(this.settings.port);
-	}
+	};
 
 	this.onModuleDestroy = function() {
 		this.server.close();
-	}
-}
+	};
+};
