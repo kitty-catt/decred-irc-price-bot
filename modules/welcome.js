@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 var settings = require("../config.js").settings;
 
 // Welcomes the user when they join
@@ -11,5 +11,5 @@ exports.module = function() {
 			message = message.replace("%", user);
 			this.channel.say(message);
 		}
-	}
-}
+	};
+};

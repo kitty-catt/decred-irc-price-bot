@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 exports.module = function() {
 	this.onCommand_flipcoin = function(nick, command) {
@@ -9,5 +9,5 @@ exports.module = function() {
 		else {
 			this.channel.say("You flipped a tails.");
 		}
-	}
-}
+	};
+};

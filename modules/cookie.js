@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 // Gives the user a cookie
 
 var cookies = require("./misc/cookies.js");
@@ -18,5 +18,5 @@ exports.module = function() {
 		
 		this.channel.say("Here, I'll " + sayMethod + " you a " + sayFlavor + " " + saySize + " " + sayCookie + " cookie with a side of " + sayBev + ".");
 	
-	}
-}
+	};
+};

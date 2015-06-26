@@ -1,7 +1,8 @@
-"use strict"
+"use strict";
 
 //Tell -- the only useful function of the old NinaBot
 var fs = require("fs");
+var settings = require('../config').settings;
 
 exports.module = function()
 {
@@ -11,7 +12,7 @@ exports.module = function()
 		ret = ret.replace(/\./g, "");
 		ret = ret.replace(/\\/g, "");
 		return ret;
-	}
+	};
 	
 	this.onModuleStart = function() {
 		this.noticesFor = [];
@@ -24,7 +25,7 @@ exports.module = function()
 				self.noticesFor.push(file);
 			}
 		});
-	}
+	};
 
 	this.onCommand_tell = function(user, args) {
 		var dest = args.split(" ", 1)[0];
@@ -62,7 +63,7 @@ exports.module = function()
 			self.channel.say("That'd go wrong...");
 			return;
 		}*/
-	}
+	};
 
 	this.onMessage = function(user, message) {
 		var self = this;
@@ -76,5 +77,5 @@ exports.module = function()
 				fs.unlink("./modules/tell/" + user + ".txt");
 			});
 		}
-	}
-}
+	};
+};

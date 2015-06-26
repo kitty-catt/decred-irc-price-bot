@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 exports.module = function() {
 	this.onMessage = function(user, message) {
@@ -9,5 +9,5 @@ exports.module = function() {
 				this.channel.say(user + ": No.");
 			}
 		}
-	}
-}
+	};
+};

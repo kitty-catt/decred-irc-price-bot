@@ -8,7 +8,7 @@ exports.module = function()
 		child = process.exec('timeout 1s calc -pdqm0',
 			function (error, stdout, stderr) {
 				stdout = stdout.trim();
-				if(stdout != "" && stdout != null)
+				if(stdout !== "" && stdout !== null)
 				{
 					var lines = stdout.split("\n").length;
 					var len = stdout.length;
@@ -28,6 +28,6 @@ exports.module = function()
 	{
 		var self = this;
 		self.calc(args, function(result) { self.channel.say(result); });
-	}
-}
+	};
+};
 

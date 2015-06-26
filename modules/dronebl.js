@@ -1,11 +1,11 @@
-"use strict"
+"use strict";
 
 var settings = require('../config').settings;
 var DroneBL = require('dronebl');
 
 exports.module = function() { 
 	this.onCommand_dronebl = function(user, args) { 
-		if(args.trim() != "") {
+		if(args.trim() !== "") {
 			var chan = this.channel;
 			DroneBL.lookup(args.split(" ")[0], function(res) {
         			if (res == 'true') {
@@ -19,5 +19,5 @@ exports.module = function() {
 		} else {
 			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "dronebl <IP Address>");
 		}
-	} 
-}
+	} ;
+};

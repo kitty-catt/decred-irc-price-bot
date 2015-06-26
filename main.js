@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-"use strict"
+"use strict";
 
 process.on('uncaughtException', function(err) {
   console.error(err);
@@ -11,8 +11,7 @@ var Server = require("./lib/Server.js").Server;
 var Channel = require("./lib/Channel.js").Channel;
 var settings = require("./config.js").settings;
 
-if (settings.servers == undefined)
-{
+if (settings.servers === 'undefined') {
 	log.critical("You haven't added any servers in the settings.");
 	process.exit();
 }

@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 // Wolfram|Alpha module - usage: wolfram query
 
 var settings = require("../config.js").settings;
@@ -7,7 +7,7 @@ var Client = require('node-wolfram');
 exports.module = function() {
 	this.onCommand_wolfram = function(user, args) { 
 		var chan = this.channel;
-		if(args.trim() != "") {
+		if(args.trim() !== "") {
 			var Wolfram = new Client(this.settings.key);
 			Wolfram.query(args, function (err, result) {
 				if(err) {
@@ -21,10 +21,10 @@ exports.module = function() {
 		} else {
 			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "wolfram <Query>");
 		}
-	}
+	};
 	this.onCommand_wa = function(user, args) { 
 		var chan = this.channel;
-		if(args.trim() != "") {
+		if(args.trim() !== "") {
 			var Wolfram = new Client(this.settings.key);
 			Wolfram.query(args, function (err, result) {
 				if(err) {
@@ -38,10 +38,10 @@ exports.module = function() {
 		} else {
 			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "wolfram <Query>");
 		}
-	}
+	};
 	this.onCommand_wolframalpha = function(user, args) { 
 		var chan = this.channel;
-		if(args.trim() != "") {
+		if(args.trim() !== "") {
 			var Wolfram = new Client(this.settings.key);
 			Wolfram.query(args, function (err, result) {
 				if(err) {
@@ -55,5 +55,5 @@ exports.module = function() {
 		} else {
 			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "wolfram <Query>");
 		}
-	} 
-}
+	};
+};

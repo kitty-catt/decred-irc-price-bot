@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 var settings = require('../config').settings;
 var wikipedia = require ('wtf_wikipedia');
@@ -6,7 +6,7 @@ var wikipedia = require ('wtf_wikipedia');
 exports.module = function() {
 	this.onCommand_wiki = function(nick, args) {
 		var chan = this.channel;
-		if(args.trim() != "") {
+		if(args.trim() !== "") {
 			wikipedia.from_api(args, "en", function(markup){
   				var text = wikipedia.plaintext(markup).substring(0,100) + "...";
 				if (text != "...") {
@@ -19,6 +19,6 @@ exports.module = function() {
 		} else {
 			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "!wiki <Search Query>");
 		}
-	}
-}
+	};
+};
 

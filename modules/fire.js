@@ -1,7 +1,7 @@
 /* Bot: My object is on fire!
 You: /me uses the firehose
 */
-"use strict"
+"use strict";
 exports.module = function() {
 	this.onCommand_fire = function(nick, command) {
 		
@@ -19,6 +19,6 @@ exports.module = function() {
 			if (message.toLowerCase().match(/.*uses the firehose.*/) !== null) {
 					this.channel.say("Thanks for saving my " + objectOnFire + "!");
 			}
-		}
-	}
-}
+		};
+	};
+};

@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 // Duck Duck Go module - usage: ddg search-query
 
 var ddg = require('ddg');
@@ -6,12 +6,12 @@ var settings = require('../config').settings;
 
 var options = {
         "no_html": "1"
-}
+};
 
 exports.module = function() {
         this.onCommand_ddg = function(user, args) {
                 var chan = this.channel;
-                if(args.trim() != "") {
+                if(args.trim() !== "") {
                         ddg.query(args, function(err, data){
                                 if(data.Abstract) {
                                         var msg = data.Abstract;
@@ -20,7 +20,7 @@ exports.module = function() {
                                 } else {
                                         var msg = "Unknown Description";
                                 }
-                                if (data.AbstractURL == "" || data.Heading == "" || msg == "") {
+                                if (data.AbstractURL === "" || data.Heading === "" || msg === "") {
                                         chan.say("No results found");
                                 } else {
                                         chan.say(data.AbstractURL + ' -- ' + data.Heading + ': "' + msg + '"');
@@ -29,6 +29,6 @@ exports.module = function() {
                 } else {
                         chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "ddg <Search Query>");
                 }
-        }
-}
+        };
+};
 
