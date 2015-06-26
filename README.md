@@ -3,7 +3,6 @@
 An extremely modular IRC bot written in Node.js.
 
 [![Build Status](https://travis-ci.org/LifeMushroom/Modular-Node.js-IRC-Bot.svg?branch=master)](https://travis-ci.org/LifeMushroom/Modular-Node.js-IRC-Bot)
-[![Coverage Status](https://coveralls.io/repos/LifeMushroom/Modular-Node.js-IRC-Bot/badge.svg)](https://coveralls.io/r/LifeMushroom/Modular-Node.js-IRC-Bot)
 
 Official Development Channel: [#MarioMansion on irc.techtronix.net](irc://irc.techtronix.net/mariomansion)
 [![Visit our IRC channel](https://kiwiirc.com/buttons/irc.techtronix.net/MarioMansion.png)](https://kiwiirc.com/client/irc.techtronix.net/#MarioMansion)
