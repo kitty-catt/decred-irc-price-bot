@@ -11,6 +11,8 @@ exports.settings = {
 	defaultCommandPrefix: "!",
 	// Message to send on connect, you don't need to include 'PRIVMSG,' most likely a NickServ command... Leave empty if you don't want it
 	connectcmd: "NickServ :IDENTIFY ModularBot MyModularBotPassword",
+	// Mashape API Key; This gives access to many modules that you could be using...
+	// mashapeKey: "Get Your Key at Mashape.com",
 
 	// These modules will be loaded in all servers.
 	globalServModules: {
@@ -30,9 +32,8 @@ exports.settings = {
 		time: {},
 		fortune: {},
 		truefalse: {},
-		// default message
-		welcome: {},
-		/* custom message
+		welcome: {}, // default message
+		/* custom message (% gets replaced with the joining user's nickname)
 		welcome: { message: "Welcome to the channel, %!" }, */
 		excuse: {},
 		say: {},
@@ -41,10 +42,8 @@ exports.settings = {
 		card: {},
 		help: {},
 		google: {},
-		// Wolfram|Alpha API Key: https://developer.wolframalpha.com/portal/apisignup.html
-		// wolfram: { key: "Wolfram|Alpha API Key" },
-		// Yandex Tranlate API Key: https://tech.yandex.com/keys/get/?service=trnsl
-		// translate: { key: "Yandex Translate API Key" },
+		// wolfram: { key: "Wolfram|Alpha API Key" }, // Wolfram|Alpha API Key: https://developer.wolframalpha.com/portal/apisignup.html
+		// translate: { key: "Yandex Translate API Key" }, // Yandex Tranlate API Key: https://tech.yandex.com/keys/get/?service=trnsl
 		whois: {},
 		ping: {},
 		hashes: {},
@@ -54,7 +53,10 @@ exports.settings = {
 		tinyurl: {},
 		isgd: {},
 		vgd: {},
-		dronebl: {}
+		password: {},
+		// yoda: {}, //Requires Mashape API Key To Be Defined
+		// spellcheck: {}, //Requires Mashape API Key To Be Defined
+		//dronebl: {}
 	},
 	
 	servers: {
