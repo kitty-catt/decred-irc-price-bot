@@ -17,7 +17,7 @@ exports.module = function() {
 					}
 			 });
 		} else {
-			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "tr <To Language> <Target Language> <Message>");
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "tr <To Language> <Target Language> <Message>");
 		}
 	};
 	this.onCommand_translate = function(user, args) {
@@ -31,7 +31,7 @@ exports.module = function() {
 					}
 			 });
 		} else {
-			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "tr <To Language> <Target Language> <Message>");
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "tr <To Language> <Target Language> <Message>");
 		}
 	};
 };

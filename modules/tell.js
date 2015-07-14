@@ -36,7 +36,7 @@ exports.module = function()
 		tellMessage = tellMessage.trim();
 
 		if (args.indexOf(" ") == -1 || user.trim().length < 1 || tellMessage.trim().length < 1) {
-			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "tell <Nickname> <Message>");
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "tell <Nickname> <Message>");
 			return;
 		}
 

@@ -10,7 +10,7 @@ exports.module = function() {
 			this.channel.say(leet.convert(args));
 		} 
 		else {
-			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "leet <Message>");
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "leet <Message>");
 		}
 	} ;
 };

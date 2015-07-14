@@ -17,7 +17,7 @@ exports.module = function() {
 				}
 			});
 		} else {
-			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "!wiki <Search Query>");
+			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "!wiki <Search Query>");
 		}
 	};
 };

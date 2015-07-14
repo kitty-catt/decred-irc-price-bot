@@ -19,7 +19,7 @@ exports.module = function() {
 				}
 			});
 		} else {
-			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "wolfram <Query>");
+			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "wolfram <Query>");
 		}
 	};
 	this.onCommand_wa = function(user, args) { 
@@ -36,7 +36,7 @@ exports.module = function() {
 				}
 			});
 		} else {
-			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "wolfram <Query>");
+			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "wolfram <Query>");
 		}
 	};
 	this.onCommand_wolframalpha = function(user, args) { 
@@ -53,7 +53,7 @@ exports.module = function() {
 				}
 			});
 		} else {
-			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "wolfram <Query>");
+			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "wolfram <Query>");
 		}
 	};
 };

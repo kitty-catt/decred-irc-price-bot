@@ -17,7 +17,7 @@ exports.module = function() {
         			}
       			});
 		} else {
-			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "dronebl <IP Address>");
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "dronebl <IP Address>");
 		}
 	} ;
 };

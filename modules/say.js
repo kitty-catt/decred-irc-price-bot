@@ -8,7 +8,7 @@ exports.module = function() {
 		if(args.trim() !== "") {
 			this.channel.say(args);
 		} else {
-			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "say <Message>");
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "say <Message>");
 		}
 	} ;
 };

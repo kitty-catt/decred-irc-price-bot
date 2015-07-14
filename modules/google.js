@@ -15,7 +15,7 @@ exports.module = function() {
 				}
 			});
 		} else {
-			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "google <Search Query>");
+			chan.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "google <Search Query>");
 		}
 	};
 };

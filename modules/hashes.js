@@ -13,7 +13,7 @@ exports.module = function() {
 			sha256.update(args, "utf8");
 			this.channel.say(sha256.digest("base64"));
 		} else {
-			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "sha256 <Message>");
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "sha256 <Message>");
 		}
 	};
 	this.onCommand_md5 = function(nick, args) {
@@ -21,7 +21,7 @@ exports.module = function() {
 			md5.update(args, "utf8");
 			this.channel.say(md5.digest("base64"));
 		} else {
-			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "md5 <Message>");
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "md5 <Message>");
 		}
 	};
 	this.onCommand_sha1 = function(nick, args) {
@@ -29,7 +29,7 @@ exports.module = function() {
 			sha1.update(args, "utf8");
 			this.channel.say(sha1.digest("base64"));
 		} else {
-			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "sha1 <Message>");
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "sha1 <Message>");
 		}
 	};
 	this.onCommand_sha512 = function(nick, args) {
@@ -37,7 +37,7 @@ exports.module = function() {
 			sha512.update(args, "utf8");
 			this.channel.say(sha512.digest("base64"));
 		} else {
-			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "sha512 <Message>");
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "sha512 <Message>");
 		}
 	};
 };

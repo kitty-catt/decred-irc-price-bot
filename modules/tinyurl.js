@@ -11,7 +11,7 @@ exports.module = function() {
 				chan.say(res);
 			});
 		} else {
-			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandTrigger + "tinyurl <URL>");
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "tinyurl <URL>");
 		}
 	};
 };
