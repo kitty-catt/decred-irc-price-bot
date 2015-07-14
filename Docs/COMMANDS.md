@@ -153,10 +153,26 @@ Shorten the URL
 Usage: !isgd url
 Shorten the URL
 
-#### vdg
+#### vgd
 Usage: !vgd url
 Shorten the URL
 
 #### dronebl
 Usage: !dronebl ip-address
 Checks the given IP against DroneBL's dns black lists
+
+#### fixnick
+Usage: !fixnick
+Changes nick to globalNick and executes connectcmd
+
+#### spellcheck
+Usage: !spellcheck <sentence>
+Checks the given sentence against a trusted sourceforge
+
+#### yoda
+Usage: !yoda <sentence>
+Translate your text into Yoda's main language
+
+#### password
+Usage: !password
+Generates a random alpha-numeric 64-character password
