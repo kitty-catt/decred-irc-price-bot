@@ -10,5 +10,12 @@ exports.module = function() {
 		} else {
 			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "say <Message>");
 		}
-	} ;
+	};
+	this.onCommand_echo = function(user, args) { 
+		if(args.trim() !== "") {
+			this.channel.say(args);
+		} else {
+			this.channel.say("You're doing it wrong.\nUsage: " + settings.defaultCommandPrefix + "say <Message>");
+		}
+	};
 };
