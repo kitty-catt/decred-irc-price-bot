@@ -17,13 +17,13 @@ Source ```https://github.com/LifeMushroom/Modular-Node.js-IRC-Bot``` and click C
 Once the application is set up, click Start Editing.
 
 ![Edit Configuration](https://raw.githubusercontent.com/LifeMushroom/Modular-Node.js-IRC-Bot/master/Docs/Cloud9/7.png)
-Double-click ```settings.js``` to edit your settings. To save, choose ```File -> Save``` on the top menu.
+Double-click ```config.js``` to edit your settings. To save, choose ```File -> Save``` on the top menu.
 
 ![NPM Install](https://raw.githubusercontent.com/LifeMushroom/Modular-Node.js-IRC-Bot/master/Docs/Cloud9/8.png)
 Now run ```cd ..``` and then ```npm install```.
 
 ![Run Bot](https://raw.githubusercontent.com/LifeMushroom/Modular-Node.js-IRC-Bot/master/Docs/Cloud9/9.png)
-Now run ```./run.sh``` to run the bot!
+Now run ```node main.js``` to run the bot!
 
 ![Log Information](https://raw.githubusercontent.com/LifeMushroom/Modular-Node.js-IRC-Bot/master/Docs/Cloud9/10.png)
 It'll give us some information in the log.
