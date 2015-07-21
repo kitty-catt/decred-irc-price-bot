@@ -10,8 +10,7 @@ exports.module = function() {
 			wikipedia.from_api(args, "en", function(markup){
   				var text = wikipedia.plaintext(markup).substring(0,100) + "...";
 				if (text != "...") {
-					chan.say(text);
-					chan.say("https://en.wikipedia.org/w/index.php?title=" + encodeURIComponent(args));
+					chan.say(text + " https://en.wikipedia.org/w/index.php?title=" + encodeURIComponent(args));
 				} else {
 					chan.say("No page found");
 				}
