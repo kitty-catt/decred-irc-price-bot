@@ -13,14 +13,13 @@ exports.module = function() {
 			if(self.settings.allowedip != "any" && co.remoteAddress != self.settings.allowedip)
 			{
 				co.end(); 
-				console.log("[Warning] Killing unauthorized connection for post report plugin. Port "+self.settings.port+", IP "+co.remoteAddress);
+				console.log("[Warning] Killing report server's unauthorized connection from IP "+co.remoteAddress);
 				return;
 			}
 			
 			co.on("data", function(data) {
 				self.channel.say(data);
 			});
-
 		});
 		
 		if(this.settings.allowedip == "127.0.0.1")
