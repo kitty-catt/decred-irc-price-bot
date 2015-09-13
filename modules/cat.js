@@ -1,4 +1,3 @@
-// Cat module - usage: cat [id]
 "use strict";
 
 var request = require('request');
@@ -14,8 +13,7 @@ exports.module = function() {
                 }
 	        request($rURL, function (error, response, body) {
 			if (!error && response.statusCode == 200) {
-				var data = XML.parse(body);
-				chan.say("Cat " + data.data.images.image.id + ": " + data.data.images.image.url);
+				chan.say("Cat " + XML.parse(body).data.images.image.id + ": " + data.data.images.image.url);
 			} else {
 				chan.say("[ERROR] " + error);
 				console.err(error);
