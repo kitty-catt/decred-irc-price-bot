@@ -29,6 +29,18 @@ exports.module = function() {
                 }
             });
         },
+        yobit: function(callback) {
+            request('https://yobit.net/api/2/dcr_btc/ticker', function (error, response, body) {
+                if (!error && response.statusCode == 200) {
+                    var s = JSON.parse(body);
+                    var price = s.ticker.last;
+                    callback(price);
+                }
+                else {
+                    callback("ERR");
+                }
+            });
+        }, /*
         'c-cex': function(callback) {
             request('https://c-cex.com/t/api_pub.html?a=getmarketsummaries', function (error, response, body) {
                 if (!error && response.statusCode == 200) {
@@ -48,7 +60,7 @@ exports.module = function() {
                 }
             });
 
-        }
+        }*/
     };
     this.onCommand_price = function(nick, command) {
         var self = this;
