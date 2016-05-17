@@ -40,6 +40,18 @@ exports.module = function() {
                     callback("ERR");
                 }
             });
+        },
+        poloniex: function(callback) {
+            request('https://poloniex.com/public?command=returnTicker', function (error, response, body) {
+                if (!error && response.statusCode == 200) {
+                    var s = JSON.parse(body);
+                    var price = s.BTC_DCR.last;
+                    callback(price);
+                }
+                else {
+                    callback("ERR");
+                }
+            });
         }, /*
         'c-cex': function(callback) {
             request('https://c-cex.com/t/api_pub.html?a=getmarketsummaries', function (error, response, body) {
