@@ -29,18 +29,6 @@ exports.module = function() {
                 }
             });
         },
-        yobit: function(callback) {
-            request('https://yobit.net/api/2/dcr_btc/ticker', function (error, response, body) {
-                if (!error && response.statusCode == 200) {
-                    var s = JSON.parse(body);
-                    var price = s.ticker.last;
-                    callback(price);
-                }
-                else {
-                    callback("ERR");
-                }
-            });
-        },
         poloniex: function(callback) {
             request('https://poloniex.com/public?command=returnTicker', function (error, response, body) {
                 if (!error && response.statusCode == 200) {
