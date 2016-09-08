@@ -40,7 +40,20 @@ exports.module = function() {
                     callback("ERR");
                 }
             });
-        }, /*
+        },
+        USD: function(callback) {
+	    request('https://api.coinmarketcap.com/v1/ticker/decred/', function (error, response, body) {
+                if (!error && response.statusCode == 200) {
+                    var s = JSON.parse(body);
+                    var price = Math.round(s[0].price_usd*100)/100;
+                    callback(price);
+                }
+                else {
+                    callback("ERR");
+                }
+            });
+      },
+      /*
         'c-cex': function(callback) {
             request('https://c-cex.com/t/api_pub.html?a=getmarketsummaries', function (error, response, body) {
                 if (!error && response.statusCode == 200) {
@@ -72,7 +85,12 @@ exports.module = function() {
         for(var prov in price_providers) {
             (function(z){
                 price_providers[prov](function(price){
-                    result.push([z, parseFloat(price).toFixed(8)]);
+                    if(z == "USD") {
+		        result.push([z, parseFloat(price).toFixed(2)]);
+                    }
+                    else {
+                        result.push([z, parseFloat(price).toFixed(8)]);
+                    }
                     left--;
                     if(left === 0) {
                         result.sort();
