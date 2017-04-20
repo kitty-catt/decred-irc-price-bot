@@ -2,11 +2,11 @@
 
 exports.settings = {
 	// Name of bot
-	globalNick: "trololololo",
+	globalNick: "priceBot",
 	// Username of bot
-	globalUserName: "IRCBot",
+	globalUserName: "priceBot",
 	// Realname of bot
-	globalRealName: "Node.js IRC Bot",
+	globalRealName: "Decred Node.js IRC Bot",
 	// prefix of most commands for bot
 	defaultCommandPrefix: "!",
 	// Message to send on connect, you don't need to include 'PRIVMSG,' most likely a NickServ command... Leave empty if you don't want it
