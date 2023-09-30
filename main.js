@@ -30,7 +30,7 @@ for (var i in settings.servers)
 	if (!serverSettings.pass)
 		serverSettings.pass = "";
 	if (!serverSettings.nick)
-		serverSettings.nick = settings.globalNick;
+		serverSettings.nick = process.env.MY_NAME;
 	if (!serverSettings.userName)
 		serverSettings.userName = settings.globalUserName;
 	if (!serverSettings.realName)
