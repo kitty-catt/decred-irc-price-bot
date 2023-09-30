@@ -35,7 +35,7 @@ exports.settings = {
 			modules: {},
 			channels: {
 				// channel to join
-				"#decred": {
+				"#kitty-catt": {
 					decredprice: {},
 					// extra modules to load to this channel
 					//donotslap: {},
