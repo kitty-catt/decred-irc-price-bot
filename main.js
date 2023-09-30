@@ -17,6 +17,8 @@ if (settings.servers === 'undefined') {
 
 var servers = [];
 
+console.log(process.env);
+
 for (var i in settings.servers)
 {
 	var serverSettings = settings.servers[i];
